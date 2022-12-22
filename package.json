@@ -1,6 +1,6 @@
 {
-  "name": "pbkdf2",
-  "version": "3.1.2",
+  "name": "@dreamoslib/pbkdf2",
+  "version": "0.1.0",
   "description": "This library provides the functionality of PBKDF2 with the ability to use any supported hashing algorithm returned from crypto.getHashes()",
   "keywords": [
     "pbkdf2",
@@ -8,12 +8,7 @@
     "salt",
     "hash"
   ],
-  "homepage": "https://github.com/crypto-browserify/pbkdf2",
-  "bugs": {
-    "url": "https://github.com/crypto-browserify/pbkdf2/issues"
-  },
   "license": "MIT",
-  "author": "Daniel Cousens",
   "browser": {
     "./index.js": "./browser.js",
     "./lib/sync.js": "./lib/sync-browser.js"
